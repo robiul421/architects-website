@@ -122,9 +122,9 @@ a{
 }
 .images{
     height: 90%;
-    width: 90%;
+    width: 80%;
     position: relative;
-    left: 90px;
+    left: 70px;
 }
 .btn{
     background-color: #FF900E;
@@ -153,6 +153,54 @@ a{
 /*Feature1 end*/
 
 
+/*Some Facts strat*/
+.facts{
+    margin-left: 50px;
+}
+.facts-title{
+    font-size: 2.8rem;
+}
+.items{
+    display: flex;
+    
+    justify-content: space-evenly;
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    
+
+}
+.icon{
+     
+     border: 1px solid #FF900E;
+     border-radius: 5px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+   
+    padding: 20px;
+    
+}
+
+    .icon-data{
+        font-size: 2.8rem;
+        color: #131313;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+        
+        
+    }
+    .icon-title{
+        font-size: 1.25rem;
+        color: #727272;
+        margin-top: 0px;
+        
+    }
+    /*some facts end*/
+
+
 
 
 /* media query  for moblie device */
@@ -174,6 +222,9 @@ a{
     .feature1{
             flex-direction: column;
         }
+        .feature1-title{
+            padding-right: 50px;
+        }
         
         .box{
             margin-right: 10px;
@@ -184,6 +235,11 @@ a{
         }
     .btn{
         position: static;
+}
+.items{
+    flex-direction: column;
+    margin-right: 20px;
+    gap: 10px;
 }
 }
 
@@ -204,6 +260,9 @@ a{
     .feature1{
         flex-direction: column;
     }
+    .feature1-title{
+        padding-right: 100px;
+    }
     .images{
         position: static;
         width: 100%;
@@ -213,5 +272,9 @@ a{
 }
 .box{
     margin-right: 10px;
+}
+.items{
+    
+    gap: 10px;
 }
 }
